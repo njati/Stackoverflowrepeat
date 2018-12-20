@@ -1,0 +1,63 @@
+
+.loginform{
+    float: right;
+    background-color: gray;
+}
+
+.leftbar{
+    float: left;
+}
+
+.pss, .btns, .uns{width: -webkit-fill-available;
+
+}
+
+.signupmessage{
+    margin-top: inherit;
+    color: greenyellow;
+
+}
+
+.signlink{cursor: grab;
+    text-decoration-line: none;
+    float: right;
+    color: snow;
+
+}
+
+.formtoright{float: right;
+    width: 40%;
+}
+
+.class1,
+.class2,
+.class3 {
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+
+p {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.class1{
+    float: right;
+    HEIGHT: -webkit-fill-available;
+    width: 25%;
+    background-color: aliceblue;
+}
+
+.class2{
+    width: 50%;
+    float: right;
+    height: -webkit-fill-available;
+}
+.class3 {float: left;
+    width: 25%;
+    height: -webkit-fill-available;
+    background-color: aliceblue;
+}
+
+

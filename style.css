@@ -1,0 +1,121 @@
+
+.loginform{
+    width: 31%;
+    padding: 60px 18px 40px 18px;
+    margin: auto;
+    margin-top: 69px;
+    background-color: gray;
+}
+
+.leftbar{
+    float: left;
+}
+
+.pss, .btns, .uns{width: -webkit-fill-available;
+
+}
+
+.signupmessage{
+    margin-top: inherit;
+    color: greenyellow;
+
+}
+
+.signlink{cursor: grab;
+    text-decoration-line: none;
+    float: right;
+    color: snow;
+
+}
+
+.formtoright{
+    width: 100%;
+}
+
+.class1,
+.class2,
+.class3 {
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+
+p {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.class1{
+    float: right;
+    HEIGHT: -webkit-fill-available;
+    width: 25%;
+    background-color: aliceblue;
+}
+
+.class2{
+    width: 50%;
+    float: right;
+    height: -webkit-fill-available;
+}
+.class3 {float: left;
+    width: 25%;
+    height: -webkit-fill-available;
+    background-color: aliceblue;
+}
+
+input{
+    padding: 9px;
+    margin: 15px 5px;
+    border-radius: 23px;
+    border: none;
+}
+
+.loginform button{
+    padding: 9px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #64d4cfcc;
+    border: none;
+    margin: 17px auto 10px auto;
+}
+
+.login form{
+    margin: 17px auto 10px auto;
+}
+
+.loginform legend{
+    color: white;
+    text-align: center;
+}
+
+.loginimage{
+    background-image: url(image.jpg);
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+.loginP{
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    top: 10px;
+    left: 0;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 0;
+    z-index: 2;
+    padding: 0 10px;
+    bottom: 0;
+
+    
+}

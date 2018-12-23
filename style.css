@@ -7,9 +7,10 @@
     background-color: gray;
 }
 
-.leftbar{
-    float: left;
+body{
+    margin: 0;
 }
+
 
 .pss, .btns, .uns{width: -webkit-fill-available;
 
@@ -150,8 +151,80 @@ input[type="checkbox"]{
     text-align: center;
 }
 
+.imagehome{
+    height: inherit;
+}
 
-@media only screen and (max-width: 600px) {
+
+
+/*Styling post.html*/
+
+   select{
+    margin: 20px 20px 21px 22px;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 25px;
+    width: 65%;
+   } 
+
+   .postquiz{
+    width: 43%;
+    margin: auto;
+    background-color: #FFF;
+    padding: 18px;
+    border-radius: 7px;
+    margin-top: 12px;
+   }
+
+   .postquiz textarea{
+       width: 100%;
+       resize: none;
+   }
+
+   .postquiz label{
+       margin-bottom: 15px;
+   }
+
+   .postbody{
+       background-color: #dcdcdca6;
+   }
+
+   .posttext{
+       margin-bottom: 23px;
+   }
+
+   input[type="submit"]{
+       margin: 15px auto;
+   }
+
+   .leftbar{
+    background: white;
+    height: 54px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media only screen and (max-width: 600px) {
     .loginform{
         width: 100%;
         background: none;

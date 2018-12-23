@@ -202,6 +202,50 @@ input[type="checkbox"]{
     height: 54px;
    }
 
+   #wrapper .view-mainpanel, #wrapper .view-sidepanel, .select-side, .select-main {
+       float: left;
+       display: inline-block;
+   }
+
+   .view-sidepanel{
+       width: 150px;
+   }
+
+   .answers{
+       width: 80%;
+       margin: auto;
+   }
+
+   .main-question{
+       width: 100%;
+       margin: auto;
+       background-color: #FFF;
+       margin-top: 2%; 
+   }
+
+   .clear{
+       clear: both;
+   }
+
+   .view-ans{
+       margin-left: 9%;
+       background-color: white;
+   }
+   .view-ans h5, h4{
+       margin: 0;
+   }
+
+   .selectanswer{
+       background-color: white;
+   }
+
+   .answers div{
+       margin-bottom: 12px;
+       padding: 3px;
+   }
+
+
+
 
 
 

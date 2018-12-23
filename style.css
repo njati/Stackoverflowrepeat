@@ -1,6 +1,9 @@
 
 .loginform{
-    float: right;
+    width: 31%;
+    padding: 60px 18px 40px 18px;
+    margin: auto;
+    margin-top: 69px;
     background-color: gray;
 }
 
@@ -25,8 +28,8 @@
 
 }
 
-.formtoright{float: right;
-    width: 40%;
+.formtoright{
+    width: 100%;
 }
 
 .class1,
@@ -60,4 +63,100 @@ p {
     background-color: aliceblue;
 }
 
+input{
+    padding: 9px;
+    margin: 15px 5px;
+    border-radius: 23px;
+    border: none;
+    display: block;
+    width: 86%;
+}
 
+input[type="checkbox"]{
+    display: inline;
+    width: auto;
+}
+
+.loginform button{
+    padding: 9px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #64d4cfcc;
+    border: none;
+    margin: 17px auto 10px auto;
+}
+
+.login form{
+    margin: 17px auto 10px auto;
+}
+
+.loginform legend{
+    color: white;
+    text-align: center;
+}
+
+.loginimage{
+    background-image: url(image.jpg);
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+.loginP{
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    top: 10px;
+    left: 0;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 0;
+    z-index: 2;
+    padding: 0 10px;
+    bottom: 0;
+}
+
+.registercontainer{
+    width: 40%;
+    margin: auto;
+}
+
+.registercontainer button{
+
+    background-color: #acacff;
+}
+
+.registercontainer input{
+    display: block;
+}
+
+.register{
+    margin-top: 33px !important;
+    padding: 26px 18px 40px 18px !important;
+}
+.register h1{
+    margin: 0px;
+    margin-bottom: 11px;
+    color: wheat;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loginform{
+        width: 100%;
+        background: none;
+        padding: 0;
+        
+    }
+  }
+  

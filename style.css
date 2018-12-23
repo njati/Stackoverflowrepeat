@@ -68,6 +68,13 @@ input{
     margin: 15px 5px;
     border-radius: 23px;
     border: none;
+    display: block;
+    width: 86%;
+}
+
+input[type="checkbox"]{
+    display: inline;
+    width: auto;
 }
 
 .loginform button{
@@ -116,6 +123,40 @@ input{
     z-index: 2;
     padding: 0 10px;
     bottom: 0;
-
-    
 }
+
+.registercontainer{
+    width: 40%;
+    margin: auto;
+}
+
+.registercontainer button{
+
+    background-color: #acacff;
+}
+
+.registercontainer input{
+    display: block;
+}
+
+.register{
+    margin-top: 33px !important;
+    padding: 26px 18px 40px 18px !important;
+}
+.register h1{
+    margin: 0px;
+    margin-bottom: 11px;
+    color: wheat;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loginform{
+        width: 100%;
+        background: none;
+        padding: 0;
+        
+    }
+  }
+  
